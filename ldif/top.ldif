@@ -1,0 +1,8 @@
+version: 1
+dn: dc=certification,dc=com
+objectClass: dcObject
+objectClass: organization
+objectClass: top
+dc: certification
+o: certification.com
+

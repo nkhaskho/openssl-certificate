@@ -1,0 +1,15 @@
+
+dn: cn=NIZAR BEN NEJI (OUTLOOK),o=ENTREPRISE,dc=certification,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+cn: NIZAR BEN NEJI (OUTLOOK)
+description: CERTIFICAT DE TEST
+mail: nizar.benneji@outlook.com
+o: ENTREPRISE
+sn: 01005D
+userCertificate;binary:< file:///root/pki/certs/outlook/outlook.der
+userPassword: 123456
+
+
+

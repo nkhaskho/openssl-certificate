@@ -1,0 +1,4 @@
+dn: o=ENTREPRISE,dc=certification,dc=com
+objectClass: organization
+description: ENTREPRISE
+o: ENTREPRISE
