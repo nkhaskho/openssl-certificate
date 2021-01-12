@@ -37,11 +37,8 @@ openssl genrsa -out certs/naiim/naiim.key -des3 2048
 ```
 
 ## step 4
-create user request (standard pk1610)
-edit config file openssl_user.cnf
-change certificate, and private key
-under [ config ]
-change O, CN and emailAddress
+create user request, edit config file openssl_user.cnf
+change certificate, and private key, under [ config ] change O, CN and emailAddress
 ```bat
 openssl req -new -key certs/naiim/naiim.key -out certs/naiim/naiim.req -config config/openssl_user.cnf
 ```
