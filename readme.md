@@ -1,11 +1,16 @@
 
-clone the pki folder on home directory
-
+clone this repository 
+```bat
+$ git clone https://github.com/naiim-khaskhoussi/openssl-certificate.git
+```
 
 # create key and certificate for the entreprise
 
 ## step 1: create the entreprise key
+
+```bat
 $ openssl genrsa -out ca/tekup.key -des3 4096
+```
 you will be promped to protect the key with a password
 
 ## step 2: create the entreprise certificate
