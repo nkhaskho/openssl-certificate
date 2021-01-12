@@ -11,16 +11,16 @@ default_ca	= CA_default		# The default ca section
 ####################################################################
 [ CA_default ]
 
-dir		= /home/cuser/pki			# Where everything is kept
+dir		= /home/guest/pki			# Where everything is kept
 certs		= $dir/certs/				# Where the issued certs are kept
 crl_dir		= $dir/crls/				# Where the issued crl are kept
 database	= $dir/index/index.txt			# database index file.
 new_certs_dir	= $dir/certs/				# default place for new certs.
 
-certificate	= $dir/ca/supcom.crt			# The CA certificate
+certificate	= $dir/ca/tekup.crt			# The CA certificate
 serial		= $dir/serial/serial			# The current serial number
 crl		= $dir/crls/rev_list.crl 		# The current CRL
-private_key	= $dir/ca/supcom.key			# The CA private key
+private_key	= $dir/ca/tekup.key			# The CA private key
 RANDFILE	= $dir/.rand				# private random number file
 
 x509_extensions	= extensions		# The extentions to add to the cert
@@ -60,9 +60,9 @@ string_mask 		= nombstr
 
 [ config ]
 C 		= TN
-O 		= SUPCOM
+O 		= TEKUP
 OU 		= DEPARTEMENT INFORMATIQUE
-CN 		= ROOT CA - SUPCOM
+CN 		= ROOT CA - TEKUP
 
 [ ca_extensions ]
 basicConstraints 	= critical,CA:TRUE
